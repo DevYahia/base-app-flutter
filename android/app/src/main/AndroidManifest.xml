@@ -4,8 +4,14 @@
    
    <!-- Permissions go here -->
    <uses-permission android:name="android.permission.INTERNET" />
-   
    <!--  -->
+
+   <!-- for url_launcher to work -->
+   <queries>
+        <!-- <package android:name="com.whatsapp" /> -->
+        <!-- <package android:name="com.google.android.gm" /> -->
+        <!-- <package android:name="com.twitter.android" /> -->
+   </queries>
 
    <application
         android:label="BaseApp" 
